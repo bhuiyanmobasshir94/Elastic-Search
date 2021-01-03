@@ -1,5 +1,15 @@
 # Elastic-Search
 
+### Commands
+
+```
+GET /_cluster/health
+
+GET /_cat/nodes?v
+
+GET /_cat/indices?v
+```
+
 ### Resources
 1. [Mentor's github repository - Complete guide to Elastic Search](https://github.com/codingexplained/complete-guide-to-elasticsearch)
 2. [Kibana public demo](https://demo.elastic.co/app/dashboards#/view/welcome_dashboard)
@@ -9,3 +19,6 @@
 6. [Kibana download page](https://www.elastic.co/downloads/kibana)
 7. [CAT Nodes API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-nodes.html)
 8. [Nodes info API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-info.html)
+
+
+
