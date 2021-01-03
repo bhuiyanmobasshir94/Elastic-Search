@@ -2,25 +2,14 @@
 
 ### Commands
 
-```
-GET /_cluster/health
-
-GET /_cat/nodes?v
-
-GET /_cat/indices?v
-
-GET /.kibana/_search/
-{
-    "query":{
-        "match_all":{}
-    }
-}
-```
+Commands in the first resource link
 
 ### Key take-ways
+
 1. Sharding is done on index level only
 2. Sharding is done for horizontal scaling
 3. Sharding is used for data volume scaling
+
 ### Resources
 1. [Mentor's github repository - Complete guide to Elastic Search](https://github.com/codingexplained/complete-guide-to-elasticsearch)
 2. [Kibana public demo](https://demo.elastic.co/app/dashboards#/view/welcome_dashboard)
