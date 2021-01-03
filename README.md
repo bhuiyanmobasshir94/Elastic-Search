@@ -7,3 +7,5 @@
 4. [Elastic Search with docker](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
 5. [Elasticsearch download page](https://www.elastic.co/downloads/elasticsearch)
 6. [Kibana download page](https://www.elastic.co/downloads/kibana)
+7. [CAT Nodes API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-nodes.html)
+8. [Nodes info API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-info.html)
