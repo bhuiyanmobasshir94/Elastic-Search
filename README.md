@@ -8,6 +8,13 @@ GET /_cluster/health
 GET /_cat/nodes?v
 
 GET /_cat/indices?v
+
+GET /.kibana/_search/
+{
+    "query":{
+        "match_all":{}
+    }
+}
 ```
 
 ### Resources
@@ -19,6 +26,7 @@ GET /_cat/indices?v
 6. [Kibana download page](https://www.elastic.co/downloads/kibana)
 7. [CAT Nodes API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-nodes.html)
 8. [Nodes info API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-info.html)
+9. [CURL download page](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-info.html)
 
 
 
